@@ -1,4 +1,4 @@
-name: ds918-7.1
+name: ds3617xs-7.1
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: ds918p
+          - platform: ds3617xs
             version: 7.1.0-42661
 
     steps:
